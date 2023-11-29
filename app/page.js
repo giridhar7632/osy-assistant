@@ -16,6 +16,18 @@ export default function Home() {
 						<Button variant='secondary'>{kr.btnContact}</Button>
 					</Link>
 				</div>
+
+				<div className='container mt-12'>
+					<p className='mb-4'>Information pages:</p>
+					<ol className='px-6'>
+						<li>
+							<Link href='/info/mental-health'>Mental health</Link>
+						</li>
+						<li>
+							<Link href='/info/youth/osy'>Out of school youth</Link>
+						</li>
+					</ol>
+				</div>
 			</div>
 		</main>
 	)
